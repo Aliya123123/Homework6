@@ -18,7 +18,7 @@ public class Main {
         }
         System.out.println("task 5");
         for (int i = 1904; i<=2096; i = i + 4){
-            System.out.println(i);
+            System.out.println(i+" год является високосным");
         }
         System.out.println("task 6");
         for (int i = 7; i<=98; i = i + 7){
@@ -26,7 +26,7 @@ public class Main {
         }
 
         System.out.println("task 7");
-        for (int i = 1; i<=512; i = i *2){
+        for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
 
@@ -43,7 +43,7 @@ public class Main {
         int totall = 0;
         for (int i = 1; i <= 12; i++) {
             totall = totall + salary;
-            totall = totall + totall/100;
+            totall += totall/100;
             System.out.println("Месяц " + i + " Итого " + totall);
         }
 
